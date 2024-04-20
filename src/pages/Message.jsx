@@ -176,7 +176,6 @@ const Message = () => {
       });
     }
   };
-  
   const handleEmoji = (emoji) => {
     setTextMessage((prev) => prev + emoji.emoji)
   }
